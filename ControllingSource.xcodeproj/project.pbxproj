@@ -89,6 +89,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		555E8C3517B6FE7200315B9C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				55FAC6B917B68814004B56CF /* DetailViewController.h */,
+				55FAC6BA17B68814004B56CF /* DetailViewController.m */,
+				55FAC6B617B68814004B56CF /* MasterViewController.h */,
+				55FAC6B717B68814004B56CF /* MasterViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		555E8C3617B6FE7900315B9C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				55FAC6B317B68814004B56CF /* ControllingSource.xcdatamodeld */,
+				55FAC6BC17B68814004B56CF /* Images.xcassets */,
+				55FAC6B017B68814004B56CF /* Main.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		55FAC69017B68814004B56CF = {
 			isa = PBXGroup;
 			children = (
@@ -125,13 +146,8 @@
 			children = (
 				55FAC6AD17B68814004B56CF /* AppDelegate.h */,
 				55FAC6AE17B68814004B56CF /* AppDelegate.m */,
-				55FAC6B017B68814004B56CF /* Main.storyboard */,
-				55FAC6B617B68814004B56CF /* MasterViewController.h */,
-				55FAC6B717B68814004B56CF /* MasterViewController.m */,
-				55FAC6B917B68814004B56CF /* DetailViewController.h */,
-				55FAC6BA17B68814004B56CF /* DetailViewController.m */,
-				55FAC6BC17B68814004B56CF /* Images.xcassets */,
-				55FAC6B317B68814004B56CF /* ControllingSource.xcdatamodeld */,
+				555E8C3617B6FE7900315B9C /* Resources */,
+				555E8C3517B6FE7200315B9C /* View Controllers */,
 				55FAC6A517B68814004B56CF /* Supporting Files */,
 			);
 			path = ControllingSource;
@@ -141,9 +157,9 @@
 			isa = PBXGroup;
 			children = (
 				55FAC6A617B68814004B56CF /* ControllingSource-Info.plist */,
+				55FAC6AC17B68814004B56CF /* ControllingSource-Prefix.pch */,
 				55FAC6A717B68814004B56CF /* InfoPlist.strings */,
 				55FAC6AA17B68814004B56CF /* main.m */,
-				55FAC6AC17B68814004B56CF /* ControllingSource-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -470,6 +486,7 @@
 				55FAC6D617B68814004B56CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55FAC6D717B68814004B56CF /* Build configuration list for PBXNativeTarget "ControllingSourceTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +495,7 @@
 				55FAC6D917B68814004B56CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
